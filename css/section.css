@@ -1,0 +1,77 @@
+
+#bg1{
+    height: 110vh;
+    min-width: 1000px;
+    background: rgb(56, 0, 56);
+    /* background: transparent; */
+    position: relative;
+    top: 0;
+}
+#object1{
+    height: 400px;
+    width: 50%;
+    position: absolute;
+    top: 48%;
+    left: 10%;
+    margin: 50px;
+    background: transparent;
+    transform: translateY(-50%);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+.doc-past{
+    font-size: 50px;
+}
+.doc-story{
+    font-size: 20px;
+}
+#object2{
+    position: absolute;
+    right:10%;
+    top: 55%;
+    transform: translateY(-50%);
+    height: 60%;
+    width: 325px;
+}
+#object2>img{
+    object-fit: cover;
+    object-position: center;
+    height: 100%;
+    width: 100%;
+}
+/* .info{
+    position: absolute;
+    top: 50% ;
+    left: 0;
+    transform: translate(30px,-50%);
+    height: 300px;
+    width: 300px;
+    
+    
+}
+.photo{
+    border:2px solid white;
+    border-radius:300px;
+    overflow: hidden;
+    
+}
+
+.myName{
+    height: 300px;
+    width: 600px;
+    position: absolute;
+    top: 5%;
+    right: 0;
+    border: 3px solid rgb(66, 126, 255);
+    margin: 30px;
+    color: white;
+} */
+
+
+/* @keyframes Profilemove {
+    from {top: 500px;}
+    to {top: 0px;}    
+} */

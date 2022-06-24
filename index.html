@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/body.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/section.css">
+    <link rel="stylesheet" href="css/btn.css">
+    <link rel="stylesheet" href="css/section2.css">
+    <link rel="stylesheet" href="css/section3.css">
+    <link rel="stylesheet" href="css/customAlert.css">
+</head>
+<body>
+    <div class="container-fluid1">
+        <nav class="navbar navbar-expand navbar-light" style="color:white;" >
+            <div class="container-fluid" id="navjs" >
+              <a class="navbar-brand" href="#scroll1 " id="fontnav">หมอหมึก</a>
+              <ul class="navbar-nav">
+                <li class="nav-item">   
+                    <a class="nav-link active" aria-current="page" href="#sec-flex" id="fontnav">เกี่ยวกับหมอหมึก</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#section2" id="fontnav">บทความ</a>
+                </li>
+                <li class="nav-item" >
+                    <a class="nav-link" href="#section3" id="fontnav" >จองคิว</a>
+                </li>
+              </ul>
+            </div>
+        </nav>
+    </div>
+    <div id="dialogoverlay">
+        <div id="finish"></div>
+        <button id="pass" onclick="hideAlertFunction()">เรียบร้อย!!</button>
+    </div>
+    <div id="dialogblock"></div>
+    
+    
+
+    <div class="container-fluid2" id="scroll1">
+        <div class="highcontrol">
+            
+            <div class="header header-expand">
+                <div class="bg-main">
+                    <div class="center">
+                        <div id="FirstL">
+                            <div class="firstL">หมอหมึก</div>
+                            <div class="secondL">ผู้มีประสบการนณ์พยากรณ์กว่า 10 ปี พร้อมคำพยากรณ์ที่แม่นยำ</div><br>
+                            <button class="queue" onclick="Alert.render('จองคิวเรียบร้อยจ้าา!!!')">จองคิว</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid3" id="sec-flex">
+        <div class ="container-fluid4" id="bg1">
+            <div id="object1"> 
+                <div class="doc-past">ประวัติหมอหมึก</div>
+                <div class="doc-story">
+                    <br>
+                    หมอหมึกเป็นนักพยากรณ์ที่ชำนาญด้านการทำนายดวงด้วย
+                    <br>
+                    ลูกแก้วพยากรณ์ ไพ่ทาไร่ และการดูลายมือ
+                    <br><br>
+                    ด้วยความสามารถที่หลากหลาย
+                    <br>
+                    ทำให้หมอหมึกสามารถเลือกวิธีการทำนายที่เหมาะกับแต่ละบุคคล
+                    <br>
+                    เพื่อให้ได้ผลลัพธ์แม่นยำที่สุด
+                </div>
+            </div>
+            <div id="object2">
+                <img>
+            </div>
+        </div>
+        <div class="container-fluid6" id="section2">
+            <div class="container-fluid7" id="bg2">
+                <div class="review-head">รีวิวจากลูกค้า</div>
+                <div class="review1" id="block">
+                    <div class="review-photo"></div>
+                    <div class="review-name">แมทธิว นักธุรกิจ</div>
+                    <div class="comment">
+                        หมอหมึกช่วยผมเรื่องฤกษ์ยามใน
+                        <br>
+                        การเจรจาธุรกิจได้มากเลย
+                        <br>
+                        ตอนนี้ขายดีเทน้ำเทท่าเลยครับ
+                    </div>
+                </div>
+                <div class="review2" id="block">
+                    <div class="review-photo"></div>
+                    <div class="review-name">แจ๊ค นักแสดง</div>
+                    <div class="comment">
+                        ต้องขอบคุณหมอหมึกในการช่วยให้ความ
+                        สัมพันธ์ราบรื่นด้วยนะคะ
+                        ทำนายอะไรไว้ก็แม่นทุกอย่างเลยค่ะ
+                    </div>
+                </div>
+                <div class="review3" id="block">
+                    <div class="review-photo"></div>
+                    <div class="review-name">น้ำใส นักศึกษา</div>
+                    <div class="comment">
+                        พี่หมอหมึกบอกมานะคะเกิดเกือบหมดเลยค่ะ
+                        ถ้าไม่ได้หมอหมึกกช่วยไว้ ชีวิตคงแย่เลยค่ะ
+                        ดีนะที่ป้องกันเรื่องร้ายๆ ทันเวลา
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid8" id="section3">
+            <div class="sec3-flex">
+                <div class="map"></div>
+                <div class="address">
+                    <div class="address-head">ทำนายชะตากับหมอหมึก</div>
+                    <div class="in-address">
+                        <br>
+                        สามารถจองคิวได้่ในเว็บหรือ<br>
+                        อีเมล: octopus_fortune@teller.com<br>
+                        โทรศัพท์: 099 XXXX XXX<br>
+                        และมาที่สำนักที่<br>
+                        ชั้น 12 อาคาร JWC ถนนโปรแกรมมิ่ง แขวงเว็บ<br>
+                        เขตอินเตอร์เน็ต กรุงเทพ 99999<br>
+                        ตามวันเวลาที่นัดไว้<br>
+                        <br>
+                        <br>
+                        จำกัด 10 คิวต่อหนึ่งวัน เปิดทำการ<br>
+                        10.00 - 18.30 น.พัก 12.00-13.00<br>
+                        เปิดทุกวันอังคารถึงเสาร์ หยุดวันจันทร์และิาทิตย์<br>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- <div class="insta">
+        <div class="mainbutton">
+            <a href="https://www.instagram.com/tmy_tmme/">
+                <button class="btn-1">instagram</button>
+            </a>
+        </div>
+    </div> -->
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/carousel.js" defer></script>
+     <script src="test.js"></script>
+</body>
+</html>

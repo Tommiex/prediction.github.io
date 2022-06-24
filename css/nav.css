@@ -1,0 +1,54 @@
+/* ตอนโผล่ */
+.navS{                     
+    position: fixed;
+    top: 0px;
+    display: flex;
+    flex-wrap: inherit;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    min-width: 500px;
+    padding-top: 9px;
+    padding-bottom: 10px;
+    padding-right: .75rem;
+    padding-left: .75rem;
+    margin-right: auto;
+    margin-left: auto;
+    background: rgb(193, 204, 255,0);
+    background-image: linear-gradient(230deg,rgb(225, 180, 223) -40%,
+    rgba(0,0,0,0) 50%, #e552ff   140%);
+    animation: mymove 0.25s  ease-in-out; 
+    z-index: 3;
+}
+@keyframes mymove{
+    from {top: -56px;}
+    to {top: 0;}
+}
+/* ตอนกลับเดิม */
+.navE{
+    position: fixed;
+    display: flex;
+    flex-wrap: inherit;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding-right: .75rem;
+    padding-left: .75rem;
+    
+    margin-right: auto;
+    margin-left: auto;
+    z-index: 3;
+    visibility: hidden;
+    min-width: 1000px;
+}
+.navbar{
+    
+    z-index: 3;
+}
+#fontnav{
+    color: white;
+}
+#navjs{
+    min-width: 1000px;
+    border-bottom: 1px solid rgb(37, 1, 38);
+}
